@@ -153,6 +153,6 @@ Caso tenha dúvidas sobre algum dos projetos ou queira conversar sobre tecnologi
 ## 📫 Contato
 
 - 📧 **E-mail:** raul.engdados@gmail.com  
-- 💼 **LinkedIn:** [raul-ferreira-20bba2130](https://www.linkedin.com/in/raul-ferreira-20bba2130/)
+- 💼 **LinkedIn:** [raul-santos-ferreira](https://www.linkedin.com/in/raul-santos-ferreira/)
 
 ---
