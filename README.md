@@ -1,187 +1,143 @@
 # 👨🏻‍💻 Raul Ferreira
 
-**Engenheiro de Dados**
+**Engenheiro de Dados Pleno**
 
-Sou um amante de tecnologia desde cedo, que aproveitou a oportunidade para sair da área de sucesso do cliente e me apaixonar por dados.
-
-Atualmente busco empoderar com dados as tomadas de decisão das áreas de negócio, centralizando informações das ferramentas usadas por todos os setores em um datalake. Isso otimiza e facilita o trabalho dos cientistas e analistas de dados na criação de dashboards que auxiliam os stakeholders.
-
-Utilizo todo o processo de ETL para transformar dados brutos em dados tratados, prontos para uso na camada ouro, com ferramentas como **Apache Airflow**, **PySpark** e **Python**.
+Profissional com sólida experiência em Engenharia de Dados, com forte atuação em ambientes **Google Cloud Platform**, **BigQuery**, **Databricks** e **Apache Airflow**. Habilidade em modelagem de dados, otimização de consultas, refatoração de pipelines e integração de dados em tempo real. Histórico de liderança em projetos, organização de demandas, gestão de SLA e suporte técnico. Facilidade para trabalhar com times multidisciplinares e ferramentas de versionamento como **Azure DevOps** e **GitHub**.
 
 ---
 
 ## 👤 Perfil
 
 - **Nome:** Raul dos Santos Ferreira  
-- **Data de nascimento:** 06 de janeiro, 1994  
-- **Profissão:** Engenheiro de Dados, Analista de Dados  
+- **Localização:** Estância Velha – RS  
+- **Profissão:** Engenheiro de Dados Pleno  
 - **Português:** Nativo  
-- **Inglês:** Razoável
+- **Inglês:** Avançado (leitura, escrita, conversação e suporte técnico)
 
 ---
 
-## 🛠️ Linguagens e Tecnologias
+## 🛠️ Tecnologias
 
-- **SQL**  
-- **Python**  
-- **Apache Spark**  
-- **Apache Airflow**  
-- **Google Cloud Platform (GCP)**  
-- **AWS**  
-- **Linux / Windows**
-
----
-
-## 🚀 Skills
-
-Níveis de proficiência com tecnologias:
-
-| Tecnologia              | Nível       |
-|-------------------------|-------------|
-| Apache Airflow          | Muito bom   |
-| Python                  | Muito bom   |
-| Apache Spark            | Muito bom   |
-| Google Cloud Platform   | Muito bom   |
-| SQL                     | Muito bom   |
-| AWS                     | Bom         |
-| Scrum                   | Muito bom   |
+| Tecnologia                        | Nível       |
+|-----------------------------------|-------------|
+| Python \| PySpark                 | Muito bom   |
+| SQL                               | Muito bom   |
+| Apache Airflow                    | Muito bom   |
+| Google Cloud Platform (BigQuery)  | Muito bom   |
+| Databricks (SQL, MLflow)          | Bom         |
+| AWS \| Azure \| GCP \| OCI        | Bom         |
+| Azure DevOps \| GitHub            | Bom         |
+| Scrum \| Metodologias Ágeis       | Muito bom   |
+| Modelagem de Dados                | Muito bom   |
 
 ---
 
-## 💼 Experiências
+## 💼 Experiência Profissional
+
+### 🏢 Guidance AI
+**Engenheiro de Dados Pleno** · *09/2025 – atual*
+
+- Atuação em projetos de ciência, engenharia e análise de dados e IA, focado em otimização de processos usando dados como insights
+- Orquestração de ETL via Airflow com infraestrutura AWS, Azure, GCP e OCI
+- Uso de bibliotecas de qualidade de dados com alertas, gráficos de desempenho e monitoramento de extrações
+
+---
 
 ### 🏢 Aurum Software Brasil
-- **Cargo:** Analista de Dados Pleno  
-- **Período:** 01/2024 – Atual  
-- **Atividades:**  
-  - Criação de DAGs para extração e transformação de dados (batch e streaming)
-  - Ferramentas: Apache Airflow, Apache Spark, Python, GCP, BigQuery
-  - Suporte à criação de dashboards (Power BI e Looker Studio)
-  - Monitoramento e escalabilidade do ambiente GCP
-  - Automação com Cloud Functions e Cloud Scheduler
+**Engenheiro de Dados Pleno** · *01/2024 – 09/2025*
+
+- Modelagem e otimização de estruturas analíticas no BigQuery
+- Criação e orquestração de pipelines no Airflow, integrando múltiplas fontes de dados
+- Extração e análise de dados em tempo real (eventos e logs)
+- Integração BigQuery + Databricks (SQL e MLflow) para projetos de Machine Learning
+- Gestão de acessos e segurança no workspace Databricks
+
+**Analista de Negócios / Engenheiro de Dados Júnior** · *01/2022 – 01/2024*
+
+- Criação do datalake e datawarehouse da empresa, extração via API e orquestração com Airflow
+- Transformação de dados com PySpark e armazenamento em BigQuery
+- Atuação como Product Owner e facilitador Scrum
+
+**Coordenador de Suporte** · *01/2021 – 12/2021*
+
+- Gestão de time, definição de SLA's, KPIs e desenvolvimento de equipe
+
+**Analista de Suporte Pleno** · *05/2019 – 12/2020*
+
+- Troubleshooting, manutenção de bancos SQL/Firebird/Oracle, desenvolvimento de triggers e procedures
+
+---
 
 ### 🏢 Grupo Pão de Açúcar (via Orange Fox)
-- **Cargo:** Engenheiro de Dados Pleno  
-- **Período:** 02/2025 – Atual  
-- **Atividades:**  
-  - Execução e monitoramento de rotinas em GCP (Composer) e Teradata (mainframe IBM)
-  - Garantia de SLA e migração do ambiente Teradata para GCP
+**Engenheiro de Dados Pleno** · *02/2025 – 09/2025*
 
-### 🏢 Aurum Software Brasil
-- **Cargo:** Analista de Negócios Pleno  
-- **Período:** 01/2022 – 01/2024  
-- **Atividades:**  
-  - Gestão de demandas do time de tecnologia
-  - Aplicação de metodologia Scrum (dailys, plannings)
-  - Documentação e definição de SLA's
-  - Roadmaps de melhoria e alinhamento com clientes
+- Refatoração pós-migração de Hadoop para BigQuery, garantindo desempenho e eficiência de custo
+- Otimização de queries e views para atendimento de SLA's de relatórios
+- Modelagem de tabelas com cruzamento de grandes volumes de dados
+- Versionamento via Azure DevOps
 
 ---
 
-## 🎓 Formação Acadêmica
+### 🏢 InterConnect Brasil LTDA
+**Analista de Suporte Pleno / Júnior / Estagiário** · *04/2013 – 04/2019*
 
-- **Curso:** Ciência da Computação  
-- **Instituição:** Universidade Nove de Julho  
-- **Conclusão:** 12/2015
+- Administração de infraestrutura, servidores Windows, redes, backups e CPD
+- Gerenciamento de e-mails (Gmail, Exchange, Office 365)
+- Atendimento técnico N1/N2, manutenção de hardware e redes
+
+---
+
+## 🎓 Formação
+
+**Bacharel em Ciência da Computação** · Universidade Nove de Julho · *12/2015*
 
 ---
 
 ## 🌟 Portfólio
 
-Conheça meus principais projetos. Fique à vontade para explorar e me chamar caso queira conversar sobre algum deles!
-
 ---
 
-### 📌 **Controle Financeiro Pessoal**
+### 📌 Controle Financeiro Pessoal
 
 🔒 *Repositório privado — disponível mediante solicitação*
 
-**Desafio:**  
-Substituir uma planilha Excel complexa de controle financeiro pessoal por uma aplicação web interativa, mantendo toda a riqueza de informações (holerites, múltiplas datas de vencimento, deduções de salário) e adicionando funcionalidades novas.
+**Desafio:** Substituir uma planilha Excel complexa de controle financeiro pessoal por uma aplicação web interativa, mantendo toda a riqueza de dados e adicionando funcionalidades novas.
 
-**Solução implementada:**  
-- Backend em **FastAPI** + **PostgreSQL**
-- Frontend em **Vanilla JS** (single-file, sem frameworks)
-- Importação automática da planilha via **openpyxl**
-- **Fluxo de caixa por data de vencimento** com saldo acumulado
+**Solução:**
+- Backend em **FastAPI** + **PostgreSQL** com API REST completa
+- Frontend em **Vanilla JS** (single-file, sem frameworks) + **Chart.js**
+- Importação automática da planilha original via **openpyxl**
 
-**Funcionalidades:**  
-- Dashboard com próximos 6 meses, gráficos de evolução e previsão
+**Funcionalidades:**
+- Dashboard com próximos 6 meses, gráficos de evolução e previsão orçamentária
 - CRUD de despesas, receitas e dívidas com filtros, ordenação e busca
 - Marcação de despesas como pagas com reflexo visual imediato
-- Deduções de holerite (INSS, IRRF, planos de saúde/odonto/pet/creche) integradas à receita bruta do salário
-- Datas de vencimento individuais por lançamento com alertas de proximidade (vermelho/amarelo)
-- Quebra automática de lançamentos com múltiplas datas em registros independentes
-- Fluxo de caixa agrupado por data de vencimento (5, 15, 23) com saldo acumulado do período
+- Deduções de holerite (INSS, IRRF, planos) integradas à receita bruta do salário
+- Datas de vencimento individuais com alertas de proximidade (vermelho/amarelo)
+- **Fluxo de caixa** agrupado por data de vencimento com saldo acumulado
 
-**Tecnologias:**  
-`Python` `FastAPI` `PostgreSQL` `JavaScript` `Chart.js` `openpyxl`
+**Stack:** `Python` `FastAPI` `PostgreSQL` `JavaScript` `Chart.js` `openpyxl`
 
 ---
 
-### 📌 **Aurum Datapipeline**
+### 📌 Aurum Datapipeline
 
-**Desafio:**  
-Desenvolver do zero um **Data Lake** que centralizasse os dados de todas as ferramentas da empresa, promovendo uma cultura data-driven.
+**Desafio:** Construir do zero um **Data Lake** que centralizasse dados de todas as ferramentas da empresa, viabilizando uma cultura data-driven.
 
-**Solução implementada:**  
+**Solução:**
 - Orquestração com **Apache Airflow**
 - Transformação com **Apache Spark**
-- Linguagem **Python**
 - Infraestrutura **Google Cloud Platform**
 
-**Objetivo:**  
-Centralizar dados de CRM, CS, finanças, produtos e sistemas próprios. Criar uma arquitetura escalável e disponível para aumentar a performance na entrega de dados.
+**Fontes integradas:** Pipedrive · Intercom · RD Station · Mixpanel · Google Ads · Meta Ads · LinkedIn Ads · Microsoft Ads · Pipefy · Circle · Beamer · Aha! · Astrea · Sensedata · sistemas internos
 
-#### 🔧 Configuração do ambiente GCP
-- Criação do projeto GCP e ativação das APIs:
-  - Cloud Composer API
-  - Cloud Storage API
-  - Compute Engine API
-  - Cloud SQL Admin API
-- Criação dos buckets (raw, processing, curated) e estrutura do Composer
-- Integração com GitHub para atualização automática via pull request (feita pela equipe de DevOps)
-
-#### 🧩 Desenvolvimento da Pipeline
-- **Hooks:** conexão com as APIs e webhooks
-- **Operators:** criação dos diretórios e armazenamento no GCS
-- **Transformations:** `transformation.py` (camada prata) e `resume.py` (camada ouro)
-- **DAGs:** orquestração das etapas e carga no BigQuery
-
-#### 🔌 Fontes de dados integradas
-
-Captura e transformação de dados das seguintes plataformas:
-
-- [Aha!](https://www.aha.io/)
-- [Astrea](https://www.astrea.net.br/)
-- [Beamer](https://www.getbeamer.com/)
-- [Microsoft Ads](https://ads.microsoft.com/)
-- [Circle](https://circle.so/)
-- [Google Ads](https://ads.google.com/)
-- [Intercom](https://www.intercom.com/)
-- [LinkedIn Ads](https://business.linkedin.com/marketing-solutions/ads)
-- [Meta Ads](https://www.facebook.com/business/ads)
-- [Mixpanel](https://mixpanel.com/)
-- [Pipedrive](https://www.pipedrive.com/)
-- [Pipefy](https://www.pipefy.com/)
-- [RD Station](https://www.rdstation.com/)
-- [Sensedata](https://sensedata.com.br/)
-
-Além disso, tratamos dados de sistemas internos como:
-- Plataforma financeira interna
-- Robôs e automações proprietárias
-
----
-
-## 🤝 Entre em contato
-
-Caso tenha dúvidas sobre algum dos projetos ou queira conversar sobre tecnologia e dados, estou à disposição!
+**Stack:** `Python` `Apache Airflow` `Apache Spark` `GCP` `BigQuery` `Cloud Storage`
 
 ---
 
 ## 📫 Contato
 
-- 📧 **E-mail:** raul.engdados@gmail.com  
+- 📧 **E-mail:** raul.sf94@gmail.com  
 - 💼 **LinkedIn:** [Raul dos Santos Ferreira](https://www.linkedin.com/in/raul-santos-ferreira/)
 
 ---
