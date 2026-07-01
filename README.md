@@ -122,12 +122,15 @@ Profissional com sólida experiência em Engenharia de Dados, com forte atuaçã
 
 ### 📌 [Brazil Economic Data Lake](https://github.com/raulsf94/brazil-econ-lake)
 
-**Desafio:** Construir um pipeline de dados públicos da economia brasileira com arquitetura Medallion completa, usando apenas ferramentas open-source e gratuitas.
+[![CI](https://github.com/raulsf94/brazil-econ-lake/actions/workflows/ci.yml/badge.svg)](https://github.com/raulsf94/brazil-econ-lake/actions/workflows/ci.yml) [![Dashboard](https://img.shields.io/badge/Dashboard-ao_vivo-6C63FF)](https://raulsf94-brazil-econ-lake.streamlit.app)
+
+**Desafio:** Construir um pipeline de dados públicos da economia brasileira com arquitetura Medallion completa, usando apenas ferramentas open-source e gratuitas — e com dashboard acessível pela internet.
 
 **Solução:**
 - **Apache Airflow** orquestra 4 DAGs com dependências via ExternalTaskSensor
-- **MinIO** (S3-compatível) como Data Lake com 3 camadas: Raw, Silver, Gold
+- **MinIO** (S3-compatível) como Data Lake com 3 camadas: Raw, Curated, Analytics
 - **DuckDB + httpFS** lê Parquet diretamente do MinIO sem staging adicional
+- **Streamlit** expõe indicadores macroeconômicos em dashboard público
 
 **Fontes de dados:**
 - **BACEN SGS API** — SELIC, CDI, IPCA mensal, USD/BRL, EUR/BRL (diário)
@@ -135,10 +138,10 @@ Profissional com sólida experiência em Engenharia de Dados, com forte atuaçã
 
 **Camadas:**
 - **Raw**: JSON bruto particionado por `year/month/day`
-- **Silver**: Parquet Snappy tipado e limpo (pandas + pyarrow)
-- **Gold**: Tabelas DuckDB prontas para análise (`indicadores_diarios`, `inflacao_mensal`, `pib_trimestral`, `dashboard_mensal`)
+- **Curated**: Parquet Snappy tipado e limpo (pandas + pyarrow)
+- **Analytics**: Tabelas DuckDB prontas para análise (`indicadores_diarios`, `inflacao_mensal`, `pib_trimestral`, `dashboard_mensal`)
 
-**Stack:** `Apache Airflow` `MinIO` `DuckDB` `Python` `pandas` `pyarrow` `Docker`
+**Stack:** `Apache Airflow` `MinIO` `DuckDB` `Streamlit` `Python` `pandas` `pyarrow` `Docker`
 
 ---
 
