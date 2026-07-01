@@ -1,4 +1,4 @@
-# 👩🏻‍💻 Raul Ferreira
+# 👨🏻‍💻 Raul Ferreira
 
 **Engenheiro de Dados**
 
@@ -73,7 +73,7 @@ Níveis de proficiência com tecnologias:
 - **Atividades:**  
   - Gestão de demandas do time de tecnologia
   - Aplicação de metodologia Scrum (dailys, plannings)
-  - Documentação e definição de SLA’s
+  - Documentação e definição de SLA's
   - Roadmaps de melhoria e alinhamento com clientes
 
 ---
@@ -89,6 +89,33 @@ Níveis de proficiência com tecnologias:
 ## 🌟 Portfólio
 
 Conheça meus principais projetos. Fique à vontade para explorar e me chamar caso queira conversar sobre algum deles!
+
+---
+
+### 📌 **Controle Financeiro Pessoal**
+
+🔒 *Repositório privado — disponível mediante solicitação*
+
+**Desafio:**  
+Substituir uma planilha Excel complexa de controle financeiro pessoal por uma aplicação web interativa, mantendo toda a riqueza de informações (holerites, múltiplas datas de vencimento, deduções de salário) e adicionando funcionalidades novas.
+
+**Solução implementada:**  
+- Backend em **FastAPI** + **PostgreSQL**
+- Frontend em **Vanilla JS** (single-file, sem frameworks)
+- Importação automática da planilha via **openpyxl**
+- **Fluxo de caixa por data de vencimento** com saldo acumulado
+
+**Funcionalidades:**  
+- Dashboard com próximos 6 meses, gráficos de evolução e previsão
+- CRUD de despesas, receitas e dívidas com filtros, ordenação e busca
+- Marcação de despesas como pagas com reflexo visual imediato
+- Deduções de holerite (INSS, IRRF, planos de saúde/odonto/pet/creche) integradas à receita bruta do salário
+- Datas de vencimento individuais por lançamento com alertas de proximidade (vermelho/amarelo)
+- Quebra automática de lançamentos com múltiplas datas em registros independentes
+- Fluxo de caixa agrupado por data de vencimento (5, 15, 23) com saldo acumulado do período
+
+**Tecnologias:**  
+`Python` `FastAPI` `PostgreSQL` `JavaScript` `Chart.js` `openpyxl`
 
 ---
 
@@ -145,11 +172,13 @@ Além disso, tratamos dados de sistemas internos como:
 - Robôs e automações proprietárias
 
 ---
+
 ## 🤝 Entre em contato
 
 Caso tenha dúvidas sobre algum dos projetos ou queira conversar sobre tecnologia e dados, estou à disposição!
 
 ---
+
 ## 📫 Contato
 
 - 📧 **E-mail:** raul.engdados@gmail.com  
