@@ -120,6 +120,28 @@ Profissional com sólida experiência em Engenharia de Dados, com forte atuaçã
 
 ---
 
+### 📌 [Brazil Economic Data Lake](https://github.com/raulsf94/brazil-econ-lake)
+
+**Desafio:** Construir um pipeline de dados públicos da economia brasileira com arquitetura Medallion completa, usando apenas ferramentas open-source e gratuitas.
+
+**Solução:**
+- **Apache Airflow** orquestra 4 DAGs com dependências via ExternalTaskSensor
+- **MinIO** (S3-compatível) como Data Lake com 3 camadas: Raw, Silver, Gold
+- **DuckDB + httpFS** lê Parquet diretamente do MinIO sem staging adicional
+
+**Fontes de dados:**
+- **BACEN SGS API** — SELIC, CDI, IPCA mensal, USD/BRL, EUR/BRL (diário)
+- **IBGE SIDRA API** — PIB trimestral, IPCA acumulado 12 meses
+
+**Camadas:**
+- **Raw**: JSON bruto particionado por `year/month/day`
+- **Silver**: Parquet Snappy tipado e limpo (pandas + pyarrow)
+- **Gold**: Tabelas DuckDB prontas para análise (`indicadores_diarios`, `inflacao_mensal`, `pib_trimestral`, `dashboard_mensal`)
+
+**Stack:** `Apache Airflow` `MinIO` `DuckDB` `Python` `pandas` `pyarrow` `Docker`
+
+---
+
 ### 📌 Aurum Datapipeline
 
 **Desafio:** Construir do zero um **Data Lake** que centralizasse dados de todas as ferramentas da empresa, viabilizando uma cultura data-driven.
